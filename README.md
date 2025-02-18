@@ -1,6 +1,6 @@
 # Email Automation Utility
 
-This utility automates sending personalized emails with attachments using Python. It reads recipient details from a CSV file, personalizes the email body using an HTML template, and sends the email with an attached PDF resume.
+This utility automates sending personalized emails with attachments using Python. It reads recipient details from a CSV file, personalizes the email body using an HTML template, and sends the email with an attached PDF resume. Additionally, it allows users to preview the email before sending.
 
 ## Features
 
@@ -8,6 +8,7 @@ This utility automates sending personalized emails with attachments using Python
 - Uses an HTML template for email body personalization.
 - Attaches a PDF resume to each email.
 - Sends emails securely using an SMTP server with `.env` configuration.
+- **Email Preview**: Users can review the email content before sending.
 
 ## Prerequisites
 
@@ -26,7 +27,7 @@ Ensure you have the following installed:
 
 ## Files Description
 
-- `email_send.py`: The main script that sends personalized emails.
+- `email_send.py`: The main script that sends personalized emails and provides a preview.
 - `email_body.html`: The HTML template used for the email body.
 - `recipients.csv`: The CSV file containing recipient details.
 - `Resume.pdf`: The PDF resume attached to each email.
@@ -37,9 +38,9 @@ Ensure you have the following installed:
 
 The `recipients.csv` should have the following columns:
 
-| Name     | EmailID             | Role              | Company |
-| -------- | ------------------- | ----------------- | ------- |
-| John Doe | johndoe@example.com | Software Engineer | Google  |
+| Name     | EmailID             | Role              | Company | RoleAlignmentText                         |
+| -------- | ------------------- | ----------------- | ------- | ----------------------------------------- |
+| John Doe | johndoe@example.com | Software Engineer | Google  | "<p> Custom Role Alignment Paragraph</p>" |
 
 ## Configuring SMTP Credentials
 
@@ -64,11 +65,11 @@ Run the following command:
 python email_send.py
 ```
 
-This will send emails to all recipients listed in `recipients.csv`.
+This will send emails to all recipients listed in `recipients.csv` after allowing users to preview the email content.
 
 ## Notes
 
-- If using Gmail, generate an **App Password** instead of using your actual password
+- Ensure "Less Secure Apps" access is enabled if required.
 - Verify email content in `email_body.html` before running the script.
 
 ## Troubleshooting
@@ -80,9 +81,3 @@ This will send emails to all recipients listed in `recipients.csv`.
 ## License
 
 This project is for personal use. Modify and distribute as needed.
-
----
-
-**Author:** Prasanna Limaye  
-**Email:** limayeprasanna15@gmail.com  
-**LinkedIn:** [Prasanna Limaye](https://www.linkedin.com/in/prasanna-limaye/)
