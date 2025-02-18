@@ -29,7 +29,7 @@ Ensure you have the following installed:
 - `email_send.py`: The main script that sends personalized emails.
 - `email_body.html`: The HTML template used for the email body.
 - `recipients.csv`: The CSV file containing recipient details.
-- `Prasanna Limaye.pdf`: The PDF resume attached to each email.
+- `Resume.pdf`: The PDF resume attached to each email.
 - `.env` (to be created): Stores SMTP credentials securely.
 - `requirements.txt`: Lists required Python dependencies.
 
@@ -84,5 +84,5 @@ This project is for personal use. Modify and distribute as needed.
 ---
 
 **Author:** Prasanna Limaye  
-**Email:** plimaye15@gmail.com  
+**Email:** limayeprasanna15@gmail.com  
 **LinkedIn:** [Prasanna Limaye](https://www.linkedin.com/in/prasanna-limaye/)
