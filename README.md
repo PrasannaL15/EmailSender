@@ -38,9 +38,9 @@ Ensure you have the following installed:
 
 The `recipients.csv` should have the following columns:
 
-| Name     | EmailID             | Role              | Company | RoleAlignmentText                         |
-| -------- | ------------------- | ----------------- | ------- | ----------------------------------------- |
-| John Doe | johndoe@example.com | Software Engineer | Google  | "<p> Custom Role Alignment Paragraph</p>" |
+| Name     | EmailID             | Role              | Company | RoleAlignmentText            |
+| -------- | ------------------- | ----------------- | ------- | ---------------------------- |
+| John Doe | johndoe@example.com | Software Engineer | Google  | "Custom Role Alignment HTML" |
 
 ## Configuring SMTP Credentials
 
