@@ -1,2 +1,23 @@
-EmailID,Name,Role,Company
-plimaye15@gmail.com,Prasanna,Software Engineer,TCS
+EmailID,Name,Role,Company,RoleAlignmentText
+plimaye15@gmail.com,Prasanna,Software Engineer,TCS,"      With my experience in <strong
+        >building trading systems using Django and Interactive Brokers
+        API</strong
+      > at Baker Trading and my <strong
+        >full-stack expertise in Java, React, and Python</strong
+      >, I am excited about the opportunity to contribute to a <strong
+        >real-time trading platform </strong
+      >. My past work includes <strong
+        >developing automated monitoring systems, optimizing CI/CD pipelines,
+        and enhancing real-time dashboards</strong
+      >, aligning well with the role&rsquo;s responsibilities."
+akhandekar582@gmail.com,Aayush,Senior Software Engineer,Stevens Institute of Technology,"      With my experience in <strong
+        >building trading systems using Django and Interactive Brokers
+        API</strong
+      > at Baker Trading and my <strong
+        >full-stack expertise in Java, React, and Python</strong
+      >, I am excited about the opportunity to contribute to a <strong
+        >real-time trading platform </strong
+      >. My past work includes <strong
+        >developing automated monitoring systems, optimizing CI/CD pipelines,
+        and enhancing real-time dashboards</strong
+      >, aligning well with the role&rsquo;s responsibilities."
