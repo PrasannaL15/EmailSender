@@ -69,8 +69,7 @@ This will send emails to all recipients listed in `recipients.csv` after allowin
 
 ## Notes
 
-- Ensure "Less Secure Apps" access is enabled if required.
-- Verify email content in `email_body.html` before running the script.
+- If using Gmail, generate an **App Password** instead of using your actual password.
 
 ## Troubleshooting
 
